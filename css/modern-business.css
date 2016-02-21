@@ -1,0 +1,408 @@
+/*!
+ * Start Bootstrap - Modern Business HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+/* Global Styles */
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    padding-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    background-color: #ffffff;
+}
+
+.img-portfolio {
+    margin-bottom: 30px;
+}
+
+.img-hover:hover {
+    opacity: 0.8;
+}
+
+canvas {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+/* navbar */
+
+.navbar-brand {
+    font-family: Georgia, serif;
+    font-size: xx-large;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color: #626262;  /*Sets the text hover color on navbar*/
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active >
+a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    color: white; /*BACKGROUND color for active*/
+    background-color: #030033;
+}
+
+.navbar-default {
+    background-color: #ffffff;
+    border: none;
+    box-shadow: 1px 1px 1px #eaeaea;
+}
+
+
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+    color: #262626;
+    text-decoration: none;
+    background-color: #66CCFF;  /*change color of links in drop down here*/
+}
+
+.nav > li > a:hover,
+.nav > li > a:focus {
+    text-decoration: none;
+    background-color: silver; /*Change rollover cell color here*/
+}
+
+
+.navbar-default .navbar-nav > li > a {
+    color: #000000; /*Change active text color here*/
+}
+
+
+/* secondary navbar */
+.secondary-nav {
+    font-size: small;
+}
+
+
+/* Home Page Carousel */
+
+header.carousel {
+     height: 100%;
+
+ }
+header.carousel a {
+    color: black;
+}
+header.carousel a:hover {
+    color: black;
+    text-decoration: none;
+}
+header.carousel .item,
+header.carousel .item.active,
+header.carousel .carousel-inner {
+    height: 100%;
+}
+
+header.carousel .fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+/* 404 Page Styles */
+
+.error-404 {
+    font-size: 100px;
+}
+
+/* Pricing Page Styles */
+
+.price {
+    display: block;
+    font-size: 50px;
+    line-height: 50px;
+}
+
+.price sup {
+    top: -20px;
+    left: 2px;
+    font-size: 20px;
+}
+
+.period {
+    display: block;
+    font-style: italic;
+}
+
+/* Footer Styles */
+
+footer {
+    margin: 50px 0;
+}
+
+
+.footer-links a {
+    color: grey;
+    font-style: oblique;
+}
+
+.footer-links {
+    color: grey;
+    font-style: normal;
+    font-size: smaller;
+}
+
+.social-icons a {
+    color: black;
+}
+/* Responsive Styles */
+
+@media(max-width:991px) {
+    .customer-img,
+    .img-related {
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width:767px) {
+    .img-portfolio {
+        margin-bottom: 15px;
+    }
+
+    header.carousel .carousel {
+        height: 70%;
+    }
+}
+
+.page-header h1 {
+    font-family: Georgia, serif;
+}
+
+.module-image {
+    width: auto;
+    background-image: url(../img/modules/module001.jpg);
+    background-repeat: no-repeat;
+}
+
+.full {
+    background: url('http://placehold.it/1920x1080') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+ h1 {
+    font-family: Georgia, serif;
+    font-size: 500%;
+    color: #000000;
+}
+
+ h2 {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size:170%;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+ h3 {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size:100%;
+    text-transform: uppercase;
+    color: #d5d5d5;
+}
+
+ h4 {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size:100%;
+    color: #747474;
+    padding-bottom: 60%;
+}
+
+.homepage-box {
+    height: 350px;
+    margin: 0px;
+
+}
+
+.article-post h1 {
+    font-family: Georgia, serif;
+    font-size: 200%;
+    color: #000000;
+}
+
+.article-post h2 {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size:170%;
+    text-transform: uppercase;
+    color: #242424;
+}
+
+.article-post h3 {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 100%;
+    text-transform: uppercase;
+    color: #747474;
+}
+
+.tabs-style a {
+    margin-top: 5px;
+    color: black;
+    font-weight: bolder;
+
+}
+
+.tabs-style a:hover {
+    color: black;
+}
+
+.howitworks-section {
+    background: #e8e8e8;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    height: 100%;
+}
+
+.howitworks-section h1{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size:large;
+    text-transform: uppercase;
+    color: #242424;
+}
+
+.sustainability-section {
+    background-color: #ffffff;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    height: 100%;
+    background-image: url(../img/homepage/trees.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.sustainability-section h1{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size:20px;
+    text-transform: uppercase;
+    color: #242424;
+}
+
+.engineering-section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.engineering-section h1{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size:20px;
+    text-transform: uppercase;
+    color: #242424;
+}
+
+.community-section p{
+    color: #ffffff;
+}
+
+.community-section a{
+    color: black;
+}
+
+.community-section a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+
+.feed-section {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.feed-section .news-feed h1{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size:15px;
+    text-transform: uppercase;
+    color: black;
+}
+
+.feed-section .news-feed p{
+    color: #58555a;
+}
+
+.logo-style {
+    width: 100px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.login-box {
+    margin-top: 30%;
+}
+
+.tumblr_posts {
+
+ }
+
+.tumblr_posts img{
+    display: block;
+    margin: 0 auto;
+    width: auto;
+
+}
+.tumblr_post {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: solid #dbdbdb 1px;
+}
+.tumblr_title {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size:20px;
+    text-transform: uppercase;
+    color: #242424;
+}
+.tumblr_body img {
+
+}
+.read_more_container {
+
+}
+.read_more_container a {
+
+}
+
+
+.intro {
+    text-align: center;
+}
+
+.intro .intro-body {
+    padding-top: 10%;
+
+}
+
+.intro .intro-body h1 {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size:40px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.intro .intro-body img {
+    width:70px;
+}
+
+.intro .intro-body p {
+    font-size: 18px;
+}
+
+.intro .intro-body .intro-direction a{
+    color: white;
+}
