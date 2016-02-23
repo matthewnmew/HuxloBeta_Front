@@ -259,7 +259,7 @@ footer {
 }
 
 .howitworks-section {
-    background: #f4f4f4;
+    background: #f3f3f3;
     padding-top: 50px;
     padding-bottom: 50px;
     height: 100%;
@@ -305,7 +305,7 @@ footer {
 }
 
 .calltoaction-section {
-    background-color: #11ff9c;
+    background-color: #7cffa1;
     padding-top: 10%;
     height: 100%;
 }
@@ -443,7 +443,7 @@ footer {
     color: #fff;
     display: inline-block;
     text-align: center;
-    font-size: 40px;
+    font-size: 800%;
 }
 
 #clockdiv > div{
