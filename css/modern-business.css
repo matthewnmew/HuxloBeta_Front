@@ -259,7 +259,7 @@ footer {
 }
 
 .howitworks-section {
-    background: #e8e8e8;
+    background: #f4f4f4;
     padding-top: 50px;
     padding-bottom: 50px;
     height: 100%;
@@ -304,18 +304,36 @@ footer {
     color: #242424;
 }
 
-.community-section p{
+.calltoaction-section {
+    background-color: #11ff9c;
+    padding-top: 10%;
+    height: 100%;
+}
+
+.calltoaction-section p{
     color: #ffffff;
 }
 
-.community-section a{
+.calltoaction-section a{
     color: black;
 }
 
-.community-section a:hover {
+.calltoaction-section a:hover {
     text-decoration: none;
     color: black;
 }
+
+.call-to-action {
+    color: black;
+    text-align: center;
+    padding-top: 20px;
+}
+.call-to-action a{
+    color: black;
+    text-align: center;
+    padding-top: 20px;
+}
+
 
 
 .feed-section {
@@ -405,4 +423,45 @@ footer {
 
 .intro .intro-body .intro-direction a{
     color: white;
+}
+
+.counter {
+    text-align: center;
+}
+
+.counter h3 {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size:40px;
+    text-transform: uppercase;
+    color: black;
+}
+
+#clockdiv{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    color: #fff;
+    display: inline-block;
+    text-align: center;
+    font-size: 40px;
+}
+
+#clockdiv > div{
+    padding: 10px;
+    border-radius: 3px;
+    background: #00BF96;
+    display: inline-block;
+}
+
+#clockdiv div > span{
+    padding: 15px;
+    border-radius: 3px;
+    background: #00816A;
+    display: inline-block;
+}
+
+.smalltext{
+    padding-top: 5px;
+    font-size: 16px;
+    font-weight: normal;
 }
